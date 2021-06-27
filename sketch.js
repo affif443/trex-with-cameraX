@@ -75,6 +75,7 @@ function draw() {
   gameOver.position.x = restart.position.x = camera.x
 
   background(255);
+  fill("black");
   text("Score: "+ score, 500,50);
   
   if (gameState===PLAY){
